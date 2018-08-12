@@ -25,7 +25,7 @@ To run the Manager options type "node bamazonManager.js" in your CLI. The prompt
 ![Manager View Products + Quit Application](/images/Demo_Manager03.PNG)
 
 ## Known Issues
-Currently the app needs to restart to update values from database.
+Currently the app needs to be quit and restarted to show updated values from database.
 
 ## License
 MIT License Agreement
