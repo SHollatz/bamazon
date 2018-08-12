@@ -37,6 +37,7 @@ function runSearch() {
             type: "input",
             message: "How many units would you like to buy?"
         }
+
     ]).then(function (answer) {
         //console.log(table[answer.product_id -1][4]);
         //console.log(answer);
@@ -53,8 +54,10 @@ function runSearch() {
                 //console.log("stock_quantity is from " + stock_quantity + " to " + new_quantity + " updated.");
             });
             calculateTotal(price, answer.quantity);
-        }      
-    })
+        }
+        console.log("\n\n");
+        runSearch()      
+    });
 }
 
 function calculateTotal(price, quantity) {
