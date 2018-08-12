@@ -10,16 +10,16 @@ To see the products on sale in this store and place an order as customer, simply
 To run the Manager options type "node bamazonManager.js" in your CLI. The prompts will guide you through the application.
 
 ## Used Technology
-Node.js,
-MySQL,
-npm packages: inquirer, mysql, cli-table
+* Node.js,
+* MySQL,
+* npm packages: inquirer, mysql, cli-table
 
-## Demo Customer
-### Run node bamazonCustomer.js
+## Demo
+#### Run node bamazonCustomer.js
 ![Customer Order](/images/Demo_Customer01.PNG)
 ![Updated Inventory After Order](/images/Demo_Customer02.PNG)
 
-### Run node bamazonManager.js
+#### Run node bamazonManager.js
 ![Manager View Products + View Low Inventory + Add Inventory](/images/Demo_Manager01.PNG)
 ![Manager View Products + Add New Product](/images/Demo_Manager02.PNG)
 ![Manager View Products + Quit Application](/images/Demo_Manager03.PNG)
