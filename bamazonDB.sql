@@ -42,3 +42,5 @@ INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUE("Exotic Pebbles", "Aquarium Ornaments", 16.95, 30);
 
 SELECT * FROM products;
+
+UPDATE products SET stock_quantity = 590 WHERE item_id = 5;
